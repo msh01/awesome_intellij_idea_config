@@ -1,0 +1,238 @@
+{
+  "plugins": [
+    {
+      "pluginId": "EclipseCodeFormatter",
+      "pluginName": "Eclipse Code Formatter",
+      "downloadUrl": "http://plugins.intellij.net/plugin/?idea\u0026id\u003d6546",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.java"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "Lombook Plugin",
+      "pluginName": "Lombok",
+      "downloadUrl": "https://github.com/mplushnikov/lombok-intellij-plugin",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.java"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "MyBatisLogPlugin",
+      "pluginName": "MyBatis Log Plugin",
+      "dependencyPluginIds": [
+        "com.intellij"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "SequenceDiagram",
+      "pluginName": "SequenceDiagram",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.java"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.alibaba.p3c.smartfox",
+      "pluginName": "Alibaba Java Coding Guidelines",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.velocity",
+        "com.intellij.modules.java",
+        "com.intellij.modules.platform",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.vcs",
+        "com.intellij.modules.xml",
+        "com.intellij.modules.xdebugger"
+      ],
+      "optionalDependencyPluginIds": [
+        "com.intellij.velocity",
+        "com.intellij.modules.java"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "de.netnexus.camelcaseplugin",
+      "pluginName": "CamelCase",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.lang"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "mobi.hsz.idea.gitignore",
+      "pluginName": ".ignore",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.lang",
+        "Git4Idea",
+        "hg4idea"
+      ],
+      "optionalDependencyPluginIds": [
+        "Git4Idea",
+        "hg4idea"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.codota.csp.intellij",
+      "pluginName": "Codota ",
+      "downloadUrl": "http://www.codota.com/plugins",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.lang",
+        "JavaScript",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "optionalDependencyPluginIds": [
+        "com.intellij.modules.lang",
+        "JavaScript",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "cn.wuzhizhan.plugin.mybatis",
+      "pluginName": "Free MyBatis plugin",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.database",
+        "com.intellij.spring"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "izhangzhihao.rainbow.brackets",
+      "pluginName": "Rainbow Brackets",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.lang",
+        "org.jetbrains.kotlin",
+        "JavaScript",
+        "Dart",
+        "org.intellij.groovy",
+        "com.intellij.modules.rider"
+      ],
+      "optionalDependencyPluginIds": [
+        "org.jetbrains.kotlin",
+        "JavaScript",
+        "Dart",
+        "org.intellij.groovy",
+        "com.intellij.modules.rider"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "MavenRunHelper",
+      "pluginName": "Maven Helper",
+      "downloadUrl": "https://github.com/krasa/MavenHelper",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.terminal"
+      ],
+      "optionalDependencyPluginIds": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "org.jetbrains.plugins.vue",
+      "pluginName": "Vue.js",
+      "downloadUrl": "https://github.com/JetBrains/intellij-plugins/tree/master/vuejs",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "JavaScript",
+        "com.intellij.modules.platform",
+        "JavaScriptDebugger",
+        "com.intellij.copyright"
+      ],
+      "optionalDependencyPluginIds": [
+        "JavaScriptDebugger",
+        "com.intellij.copyright"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.jetbrains.edu",
+      "pluginName": "EduTools",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.java",
+        "org.intellij.scala",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.python",
+        "NodeJS",
+        "com.intellij.modules.androidstudio",
+        "org.rust.lang",
+        "com.intellij.modules.clion",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.android"
+      ],
+      "optionalDependencyPluginIds": [
+        "com.intellij.modules.java",
+        "org.intellij.scala",
+        "org.jetbrains.kotlin",
+        "com.intellij.modules.python",
+        "NodeJS",
+        "com.intellij.modules.androidstudio",
+        "org.rust.lang",
+        "com.intellij.modules.clion",
+        "org.jetbrains.plugins.yaml",
+        "org.jetbrains.android"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "in.1ton.idea.spring.assistant.plugin",
+      "pluginName": "Spring Assistant",
+      "downloadUrl": "https://github.com/1tontech/intellij-spring-assistant",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.java",
+        "com.intellij.modules.lang",
+        "org.jetbrains.plugins.yaml",
+        "com.intellij.properties",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "optionalDependencyPluginIds": [
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.gradle"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    }
+  ]
+}
