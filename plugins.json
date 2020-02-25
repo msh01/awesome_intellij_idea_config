@@ -1,19 +1,6 @@
 {
   "plugins": [
     {
-      "pluginId": "EclipseCodeFormatter",
-      "pluginName": "Eclipse Code Formatter",
-      "downloadUrl": "http://plugins.intellij.net/plugin/?idea\u0026id\u003d6546",
-      "dependencyPluginIds": [
-        "com.intellij",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.java"
-      ],
-      "optionalDependencyPluginIds": [],
-      "isBundle": false,
-      "isEnable": true
-    },
-    {
       "pluginId": "Lombook Plugin",
       "pluginName": "Lombok",
       "downloadUrl": "https://github.com/mplushnikov/lombok-intellij-plugin",
@@ -28,6 +15,22 @@
       "isEnable": true
     },
     {
+      "pluginId": "MavenRunHelper",
+      "pluginName": "Maven Helper",
+      "downloadUrl": "https://github.com/krasa/MavenHelper",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.java"
+      ],
+      "optionalDependencyPluginIds": [
+        "org.jetbrains.plugins.terminal"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
       "pluginId": "MyBatisLogPlugin",
       "pluginName": "MyBatis Log Plugin",
       "dependencyPluginIds": [
@@ -38,59 +41,28 @@
       "isEnable": true
     },
     {
-      "pluginId": "SequenceDiagram",
-      "pluginName": "SequenceDiagram",
+      "pluginId": "cn.wuzhizhan.plugin.mybatis",
+      "pluginName": "Free MyBatis plugin",
       "dependencyPluginIds": [
         "com.intellij",
-        "com.intellij.modules.java"
+        "com.intellij.database",
+        "com.intellij.spring"
       ],
       "optionalDependencyPluginIds": [],
       "isBundle": false,
       "isEnable": true
     },
     {
-      "pluginId": "com.alibaba.p3c.smartfox",
-      "pluginName": "Alibaba Java Coding Guidelines",
+      "pluginId": "com.chrisrm.idea.MaterialThemeUI",
+      "pluginName": "Material Theme UI",
       "dependencyPluginIds": [
         "com.intellij",
-        "com.intellij.velocity",
-        "com.intellij.modules.java",
         "com.intellij.modules.platform",
         "com.intellij.modules.lang",
-        "com.intellij.modules.vcs",
-        "com.intellij.modules.xml",
-        "com.intellij.modules.xdebugger"
+        "org.jetbrains.android"
       ],
       "optionalDependencyPluginIds": [
-        "com.intellij.velocity",
-        "com.intellij.modules.java"
-      ],
-      "isBundle": false,
-      "isEnable": true
-    },
-    {
-      "pluginId": "de.netnexus.camelcaseplugin",
-      "pluginName": "CamelCase",
-      "dependencyPluginIds": [
-        "com.intellij",
-        "com.intellij.modules.lang"
-      ],
-      "optionalDependencyPluginIds": [],
-      "isBundle": false,
-      "isEnable": true
-    },
-    {
-      "pluginId": "mobi.hsz.idea.gitignore",
-      "pluginName": ".ignore",
-      "dependencyPluginIds": [
-        "com.intellij",
-        "com.intellij.modules.lang",
-        "Git4Idea",
-        "hg4idea"
-      ],
-      "optionalDependencyPluginIds": [
-        "Git4Idea",
-        "hg4idea"
+        "org.jetbrains.android"
       ],
       "isBundle": false,
       "isEnable": true
@@ -116,101 +88,51 @@
       "isEnable": true
     },
     {
-      "pluginId": "cn.wuzhizhan.plugin.mybatis",
-      "pluginName": "Free MyBatis plugin",
+      "pluginId": "com.github.shiraji.emoji",
+      "pluginName": "Emoji Support Plugin",
+      "downloadUrl": "https://plugins.jetbrains.com/plugin/9174",
       "dependencyPluginIds": [
         "com.intellij",
-        "com.intellij.database",
-        "com.intellij.spring"
+        "com.intellij.modules.lang"
       ],
       "optionalDependencyPluginIds": [],
       "isBundle": false,
       "isEnable": true
     },
     {
-      "pluginId": "izhangzhihao.rainbow.brackets",
-      "pluginName": "Rainbow Brackets",
+      "pluginId": "com.ppolivka.gitlabprojects",
+      "pluginName": "GitLab Projects",
       "dependencyPluginIds": [
         "com.intellij",
-        "com.intellij.modules.lang",
-        "org.jetbrains.kotlin",
-        "JavaScript",
-        "Dart",
-        "org.intellij.groovy",
-        "com.intellij.modules.rider"
-      ],
-      "optionalDependencyPluginIds": [
-        "org.jetbrains.kotlin",
-        "JavaScript",
-        "Dart",
-        "org.intellij.groovy",
-        "com.intellij.modules.rider"
-      ],
-      "isBundle": false,
-      "isEnable": true
-    },
-    {
-      "pluginId": "MavenRunHelper",
-      "pluginName": "Maven Helper",
-      "downloadUrl": "https://github.com/krasa/MavenHelper",
-      "dependencyPluginIds": [
-        "com.intellij",
-        "org.jetbrains.idea.maven",
-        "org.jetbrains.plugins.terminal"
-      ],
-      "optionalDependencyPluginIds": [
-        "org.jetbrains.plugins.terminal"
-      ],
-      "isBundle": false,
-      "isEnable": true
-    },
-    {
-      "pluginId": "org.jetbrains.plugins.vue",
-      "pluginName": "Vue.js",
-      "downloadUrl": "https://github.com/JetBrains/intellij-plugins/tree/master/vuejs",
-      "dependencyPluginIds": [
-        "com.intellij",
-        "JavaScript",
         "com.intellij.modules.platform",
-        "JavaScriptDebugger",
-        "com.intellij.copyright"
+        "com.intellij.modules.vcs",
+        "Git4Idea"
       ],
-      "optionalDependencyPluginIds": [
-        "JavaScriptDebugger",
-        "com.intellij.copyright"
-      ],
+      "optionalDependencyPluginIds": [],
       "isBundle": false,
       "isEnable": true
     },
     {
-      "pluginId": "com.jetbrains.edu",
-      "pluginName": "EduTools",
+      "pluginId": "com.wix.eslint",
+      "pluginName": "ESLint",
+      "downloadUrl": "https://github.com/idok/eslint-plugin",
       "dependencyPluginIds": [
         "com.intellij",
         "com.intellij.modules.lang",
-        "com.intellij.modules.java",
-        "org.intellij.scala",
-        "org.jetbrains.kotlin",
-        "com.intellij.modules.python",
-        "NodeJS",
-        "com.intellij.modules.androidstudio",
-        "org.rust.lang",
-        "com.intellij.modules.clion",
-        "org.jetbrains.plugins.yaml",
-        "org.jetbrains.android"
+        "JavaScript"
       ],
-      "optionalDependencyPluginIds": [
-        "com.intellij.modules.java",
-        "org.intellij.scala",
-        "org.jetbrains.kotlin",
-        "com.intellij.modules.python",
-        "NodeJS",
-        "com.intellij.modules.androidstudio",
-        "org.rust.lang",
-        "com.intellij.modules.clion",
-        "org.jetbrains.plugins.yaml",
-        "org.jetbrains.android"
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "commit-template-idea-plugin",
+      "pluginName": "Git Commit Template",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.vcs"
       ],
+      "optionalDependencyPluginIds": [],
       "isBundle": false,
       "isEnable": true
     },
@@ -230,6 +152,49 @@
       "optionalDependencyPluginIds": [
         "org.jetbrains.idea.maven",
         "org.jetbrains.plugins.gradle"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "mobi.hsz.idea.gitignore",
+      "pluginName": ".ignore",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.lang",
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "hg4idea"
+      ],
+      "optionalDependencyPluginIds": [
+        "Git4Idea",
+        "hg4idea"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "ru.adelf.idea.dotenv",
+      "pluginName": ".env files support",
+      "dependencyPluginIds": [
+        "com.intellij",
+        "com.intellij.modules.platform",
+        "com.jetbrains.php",
+        "com.intellij.modules.ruby",
+        "com.intellij.modules.python",
+        "JavaScript",
+        "org.jetbrains.plugins.go",
+        "Docker",
+        "org.jetbrains.plugins.yaml"
+      ],
+      "optionalDependencyPluginIds": [
+        "com.jetbrains.php",
+        "com.intellij.modules.ruby",
+        "com.intellij.modules.python",
+        "JavaScript",
+        "org.jetbrains.plugins.go",
+        "Docker",
+        "org.jetbrains.plugins.yaml"
       ],
       "isBundle": false,
       "isEnable": true
