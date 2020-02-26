@@ -6,12 +6,12 @@
 
 
 
-![](https://raw.githubusercontent.com/msh01/PicGo/master/20200225235330.png)
+![](https://raw.githubusercontent.com/msh01/PicGo/master/20200226181425.png)
 
 ### 一、 用法
 
-- **引入编辑器配置：**使用时点击`file`→`import settings`，选中仓库中的 `settings.zip`  导入IDEA即可同步本仓库的优化配置，再也无需手动的一个个配置。尤其是在重装系统或者更换电脑的情况下。
-- **引入插件：**在IDEA的插件市场里面搜索 `plugin-importer-exporter` 插件，安装重启后，点击`file`→`import plugin` ，选择仓库中的`plugins.json`  文件即可自动安装本配置里面的插件
+- **引入编辑器配置：** 使用时点击`file`→`import settings`，选中仓库中的 `settings.zip`  导入IDEA即可同步本仓库的优化配置，再也无需手动的一个个配置。尤其是在重装系统或者更换电脑的情况下。
+- **引入插件：** 在IDEA的插件市场里面搜索 `plugin-importer-exporter` 插件，安装重启后，点击`file`→`import plugin` ，选择仓库中的`plugins.json`  文件即可自动安装本配置里面的插件
 
 
 
@@ -23,9 +23,9 @@
  - 行注释空格开始，而非从行第一列开始,更符合中文排版习惯
  - 自动编译，方便热部署（需配合spring-boot-devptools）
  - 键盘映射为Eclipse模式，并新增了若干快捷键
-    - git push     → ctrl+f8
-    - git history   →  ctrl+8
-    - git pull       →  ctrl +p 
+    - Git Push     → Ctrl + F8
+    - Git History   →  Ctrl + 8
+    - Git Pull       →  Ctrl + P
  - 自动导包,再也不用手动一个个 import了
  - 编辑器的inspection 校验进行了优化，减少了不必要的校验，从而优化加载性能
  - 代码提示的大小写模糊
@@ -64,9 +64,9 @@
 
 #### Maven Helper
 
-Maven Helper 属于那种你平常很少用到，但却是必备的一款插件。尤其是在maven多模块的项目中，很容易出现依赖冲突和依赖重复引入的问题（最严重的情况是同样的类被spring 加载两次，从而向应用启动失败）。这款插件就是解决此类场景下的问题的杀手锏
+Maven Helper 属于那种你平常很少用到，但却是必备的一款插件。尤其是在maven多模块的项目中，很容易出现依赖冲突和依赖重复引入的问题（最严重的情况是同样的类被spring 加载两次，从而导致应用启动失败）。这款插件就是解决此类场景下的问题的杀手锏
 
-
+ 
 
 #### MyBatis Log Plugin
 
@@ -76,7 +76,7 @@ Maven Helper 属于那种你平常很少用到，但却是必备的一款插件�
 
 #### Free MyBatis plugin
 
-方便你在mybatis的xml的SQL子句和它对应的dao 方法中来回跳转，体验升天般的舒爽
+方便你在mybatis的xml的SQL子句和它对应的dao 方法中来回跳转，体验升天般的快感
 
 
 
@@ -84,7 +84,7 @@ Maven Helper 属于那种你平常很少用到，但却是必备的一款插件�
 
 一个基于机器学习的代码提示插件。相当于对idea原有的代码提示做了增强
 
-#### alibaba code guideline
+#### Alibaba Code Guideline
 
 代码规范扫描插件，同时可以很方便帮你重构代码。此插件需配合本仓库的代码模板使用
 
@@ -100,16 +100,16 @@ git commit的提交信息模板
 
 #### .ignore
 
-支持你能想象到的所有ignore文件生成。例如`.gitignore`
+支持你能想象到的所有ignore文件生成。最常用的有`.gitignore`
 
 #### Spring Assistant
 
-在你编辑spring boot配置文件时，给予强大的代码提示以及去重和纠错
+在你编辑spring boot配置文件（`application.yml`,`appliction.properties`）时，给予强大的代码提示以及p配置去重和配置纠错
 
  ####  
 
- ###  
+ ####  Material Theme UI
 
- 
+ 一个完美的材质化风格的UI主题，对于厌倦了万年不变的IDEA原生界面的开发者，是个福音
 
 ### 后续待完善 
