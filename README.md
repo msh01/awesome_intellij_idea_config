@@ -1,21 +1,25 @@
-## Intellij IDEA优化配置最佳实践
+## Intellij IDEA配置优化最佳实践
 
 
 
- 本项目对 可提升**开发效率**和**视觉舒适度**的配置进行了优化，并集成了若干插件。视觉效果如图
+### 一、 介绍
+
+IDEA默认的一些配置并不符合我们的使用习惯，安装IDEA后，为了提升**开发效率**和**视觉舒适度**，往往需要非很多精力去优化那些默认配置。
+
+ 本项目对 可提升**开发效率**和**视觉舒适度**的配置进行了优化，并集成了若干插件，使用时直接引入本项目的配置文件即可。视觉效果如图
 
 
 
 ![](https://raw.githubusercontent.com/msh01/PicGo/master/20200226181425.png)
 
-### 一、 用法
+### 二、 用法
 
 - **引入编辑器和注释模板配置：** 使用时点击`file`→`import settings`，选中仓库中的 `settings.zip`  导入IDEA即可同步本仓库的优化配置，再也无需手动的一个个配置。尤其是在重装系统或者更换电脑的情况下。
-- **引入插件：** 在IDEA的插件市场里面搜索 `plugin-importer-exporter` 插件，安装重启后，点击`file`→`import plugin` ，选择仓库中的`plugins.json`  文件即可自动安装本配置里面的插件
+- **引入插件：** 在IDEA的插件市场里面搜索 `plugin-importer-exporter` 插件，安装重启后，点击`file`→`import plugin` ，选择仓库中的`plugins.json`  文件即可自动安装本配置里面所有的插件
 
 
 
- ### 二、  编辑器优化说明
+ ### 三、  编辑器优化说明
 
 #### 背景色和字体
 
@@ -32,7 +36,7 @@
 
 #### 键盘映射
 
- -  键盘映射为`Eclipse模式`，减少了Eclipse转移过来的用户的学习成本。
+ -  键盘映射为`Eclipse模式`，减少了由`Eclipse`转移过来的用户的学习成本。
  - 新增了若干快捷键
     - git push     → ctrl + f8
     - git history   →  ctrl + 8
@@ -45,7 +49,7 @@
 
 #### 性能优化
 
- - 编辑器的inspection 校验进行了优化，减少了不必要的校验，从而优化加载性能
+ - 编辑器的inspection 校验进行了优化，减少了不必要的校验，从而优化加载性能，去除一大片毫无意义的醒目的黄色警告
 
 #### 代码提示
 
@@ -56,7 +60,7 @@
 - 项目的默认的字符编码全部设为`utf-8`
 - `.properties` 文件防止查看乱码，开启 `native-to-ascii  conversion`
 
-### 三、 方法注释和类注释模板说明
+### 四、 方法注释和类注释模板说明
 
 
 
@@ -76,7 +80,7 @@
 
 ![](https://raw.githubusercontent.com/msh01/PicGo/master/20200226001020.png)
 
-### 四、 插件集成说明
+### 五、 插件集成说明
 
 
 
@@ -110,7 +114,7 @@ Maven Helper 可以帮你一目了然的查看项目的依赖树，以及依赖�
 
 #### Codota
 
-一个基于机器学习的代码提示插件。相当于对idea原有的代码提示做了增强
+一个基于机器学习的代码提示插件。相当于对IDEA原有的代码提示做了增强
 
 #### Alibaba Code Guideline
 
@@ -122,19 +126,11 @@ Maven Helper 可以帮你一目了然的查看项目的依赖树，以及依赖�
 
 #### Git Commit Template
 
-可以自定义idea里面的git commit的提交信息模板
+可以自定义IDEA里面的git commit的提交信息模板
 
-<img src="https://raw.githubusercontent.com/msh01/PicGo/master/20200229204334.png" width = "50%"  height="50%"  align="left"/>
+<img src="https://raw.githubusercontent.com/msh01/PicGo/master/20200229204334.png" align="center"/>
 
 附录git commit template 常见的五种改动类型（type of change）
-
--  feat (新特性)
-- fix (bug修复)
-- docs (文档改动)
-- style (格式化, 缺失分号等; 不包括生产代码变动)
-- refactor (重构代码)
-- test (添加缺失的测试, 重构测试, 不包括生产代码变动)
-- chore (更新grunt任务等; 不包括生产代码变动)
 
 ```shell
 - feat (新特性)
@@ -154,12 +150,24 @@ Maven Helper 可以帮你一目了然的查看项目的依赖树，以及依赖�
 
 #### Spring Assistant
 
-在你编辑spring boot配置文件（`application.yml`,`appliction.properties`）时，给予强大的代码提示以及p配置去重和配置纠错
+在你编辑spring boot配置文件（`application.yml`,`appliction.properties`）时，给予强大的代码提示以及配置去重和配置纠错
 
  ####  
 
  ####  Material Theme UI
 
  一个完美的材质化风格的UI主题，对于厌倦了万年不变的IDEA原生界面的开发者，是个福音
+
+
+
+
+
+### 六、 推荐阅读
+
+[IntelliJ IDEA 2019.3利用补丁永久破解激活教程](https://www.jiweichengzhu.com/article/2940ed65c94f4671ae3f3aa72e168673)
+
+[IntelliJ IDEA 2019.3.3 便携增强版](https://www.ghpym.com/idea.html)
+
+[IntelliJ IDEA 简体中文专题教程](https://github.com/judasn/IntelliJ-IDEA-Tutorial)
 
 ### 后续待完善 
