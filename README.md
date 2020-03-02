@@ -157,7 +157,7 @@ Maven Helper 可以帮你一目了然的查看项目的依赖树，以及依赖�
 
 #### .ignore
 
-支持你能想象到的所有ignore文件生成。最常用的有`.gitignore`
+支持你能想象到的所有ignore文件生成。最常用的有.gitignore (Git), .hgignore (Mercurial), .npmignore (NPM), .dockerignore (Docker)等
 
 #### Spring Assistant
 
