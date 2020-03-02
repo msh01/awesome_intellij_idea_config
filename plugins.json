@@ -53,21 +53,6 @@
       "isEnable": true
     },
     {
-      "pluginId": "com.chrisrm.idea.MaterialThemeUI",
-      "pluginName": "Material Theme UI",
-      "dependencyPluginIds": [
-        "com.intellij",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.lang",
-        "org.jetbrains.android"
-      ],
-      "optionalDependencyPluginIds": [
-        "org.jetbrains.android"
-      ],
-      "isBundle": false,
-      "isEnable": true
-    },
-    {
       "pluginId": "com.codota.csp.intellij",
       "pluginName": "Codota ",
       "downloadUrl": "http://www.codota.com/plugins",

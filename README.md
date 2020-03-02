@@ -10,14 +10,15 @@ IDEA默认的一些配置并不符合我们的使用习惯，安装IDEA后，为
 
 
 
-![](https://raw.githubusercontent.com/msh01/PicGo/master/20200226181425.png)
+![](https://raw.githubusercontent.com/msh01/PicGo/master/20200302135522.png)
 
 ### 二、 用法
 
 - **引入编辑器和注释模板配置：** 使用时点击`file`→`import settings`，选中仓库中的 `settings.zip`  导入IDEA即可同步本仓库的优化配置，再也无需手动的一个个配置。尤其是在重装系统或者更换电脑的情况下。
 - **引入插件：** 在IDEA的插件市场里面搜索 `plugin-importer-exporter` 插件，安装重启后，点击`file`→`import plugin` ，选择仓库中的`plugins.json`  文件即可自动安装本配置里面所有的插件
+- **设置创建新项目时的默认maven路径：** 因为每个人的本地的maven路径不同，所以需要设置你本地的maven路径。 找到`file` →`other settings`   →`settings for new projects` , 搜索`maven`，在里面设置你自己的创建新项目时默认的maven路径
 
-
+![](https://raw.githubusercontent.com/msh01/PicGo/master/20200302114940.png)
 
  ### 三、  编辑器优化说明
 
@@ -154,10 +155,6 @@ Maven Helper 可以帮你一目了然的查看项目的依赖树，以及依赖�
 
  ####  
 
- ####  Material Theme UI
-
- 一个完美的材质化风格的UI主题，对于厌倦了万年不变的IDEA原生界面的开发者，是个福音。当然，也有人更喜欢原生的界面，到时把Material Theme UI插件禁用即可
-
 
 
 
@@ -169,5 +166,7 @@ Maven Helper 可以帮你一目了然的查看项目的依赖树，以及依赖�
 [IntelliJ IDEA 2019.3.3 便携增强版](https://www.ghpym.com/idea.html)
 
 [IntelliJ IDEA 简体中文专题教程](https://github.com/judasn/IntelliJ-IDEA-Tutorial)
+
+[java代码格式化模板（阿里代码规范）](https://www.jianshu.com/p/9befe7710176)
 
 ### 七 、本仓库持续更新中，敬请期待
