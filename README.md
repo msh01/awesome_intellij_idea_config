@@ -2,6 +2,38 @@
 
 
 
+* [Intellij IDEA配置优化最佳实践](#intellij-idea%E9%85%8D%E7%BD%AE%E4%BC%98%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)
+  * [一、 介绍](#%E4%B8%80-%E4%BB%8B%E7%BB%8D)
+  * [二、 用法](#%E4%BA%8C-%E7%94%A8%E6%B3%95)
+  * [三、  编辑器优化说明](#%E4%B8%89--%E7%BC%96%E8%BE%91%E5%99%A8%E4%BC%98%E5%8C%96%E8%AF%B4%E6%98%8E)
+    * [背景色和字体](#%E8%83%8C%E6%99%AF%E8%89%B2%E5%92%8C%E5%AD%97%E4%BD%93)
+    * [行注释](#%E8%A1%8C%E6%B3%A8%E9%87%8A)
+    * [热部署](#%E7%83%AD%E9%83%A8%E7%BD%B2)
+    * [键盘映射](#%E9%94%AE%E7%9B%98%E6%98%A0%E5%B0%84)
+    * [自动导包](#%E8%87%AA%E5%8A%A8%E5%AF%BC%E5%8C%85)
+    * [性能优化](#%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96)
+    * [代码提示](#%E4%BB%A3%E7%A0%81%E6%8F%90%E7%A4%BA)
+    * [字符编码](#%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81)
+  * [四、 方法注释和类注释模板说明](#%E5%9B%9B-%E6%96%B9%E6%B3%95%E6%B3%A8%E9%87%8A%E5%92%8C%E7%B1%BB%E6%B3%A8%E9%87%8A%E6%A8%A1%E6%9D%BF%E8%AF%B4%E6%98%8E)
+    * [自定义了方法注释模板 ：](#%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BA%86%E6%96%B9%E6%B3%95%E6%B3%A8%E9%87%8A%E6%A8%A1%E6%9D%BF-)
+    * [对类注释进行了优化](#%E5%AF%B9%E7%B1%BB%E6%B3%A8%E9%87%8A%E8%BF%9B%E8%A1%8C%E4%BA%86%E4%BC%98%E5%8C%96)
+    * [修改注释模板：](#%E4%BF%AE%E6%94%B9%E6%B3%A8%E9%87%8A%E6%A8%A1%E6%9D%BF)
+  * [五、 插件集成说明](#%E4%BA%94-%E6%8F%92%E4%BB%B6%E9%9B%86%E6%88%90%E8%AF%B4%E6%98%8E)
+    * [Lombok](#lombok)
+    * [Maven Helper](#maven-helper)
+    * [MyBatis Log Plugin](#mybatis-log-plugin)
+    * [Free MyBatis plugin](#free-mybatis-plugin)
+    * [Codota](#codota)
+    * [EclipseCodeFormatter](#eclipsecodeformatter)
+    * [Alibaba Code Guideline](#alibaba-code-guideline)
+    * [Emoji Support Plugin](#emoji-support-plugin)
+    * [Git Commit Template](#git-commit-template)
+    * [\.ignore](#ignore)
+    * [Spring Assistant](#spring-assistant)
+    * [CamelCase](#camelcase)
+  * [六、 推荐阅读](#%E5%85%AD-%E6%8E%A8%E8%8D%90%E9%98%85%E8%AF%BB)
+  * [七 、本仓库持续更新中，敬请期待](#%E4%B8%83-%E6%9C%AC%E4%BB%93%E5%BA%93%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%E4%B8%AD%E6%95%AC%E8%AF%B7%E6%9C%9F%E5%BE%85)
+
 ### 一、 介绍
 
 IDEA默认的一些配置并不符合我们的使用习惯，安装IDEA后，为了提升**开发效率**和**视觉舒适度**，往往需要花费很多精力去优化那些默认配置。
