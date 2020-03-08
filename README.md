@@ -226,6 +226,8 @@ Maven Helper 可以帮你一目了然的查看项目的依赖树，以及依赖�
 
 [IntelliJ IDEA 2019.3利用补丁永久破解激活教程](https://www.jiweichengzhu.com/article/2940ed65c94f4671ae3f3aa72e168673)
 
+[Jetbrains系列产品2019.3.3最新激活方法[持续更新]](https://zhile.io/2018/08/25/jetbrains-license-server-crack.html)
+
 [IntelliJ IDEA 2019.3.3 便携增强版](https://www.ghpym.com/idea.html)
 
 [IntelliJ IDEA 简体中文专题教程](https://github.com/judasn/IntelliJ-IDEA-Tutorial)
