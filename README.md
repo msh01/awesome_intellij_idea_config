@@ -50,11 +50,21 @@ IDEA默认的一些配置并不符合我们的使用习惯，安装IDEA后，为
 
   （科学上网的梯子会导致IDEA里面的插件市场偶尔无法访问，这时就需要你把每个插件包下载到本地后然后`install plugin from disk`）
 
-- **设置默认的全局maven路径：** 因为每个人的本地的maven路径不同，所以需要设置你的IDEA默认配置的的maven路径（如果不在这里不设置的话，每次创建新项目时则不得不都手动设置一遍）：
+- **设置全局maven路径：** 因为每个人的本地的maven路径不同，所以需要设置你的IDEA默认配置的的maven路径（如果不在这里不设置的话，每次创建新项目时则不得不都手动设置一遍）：
 
    找到`file` →`other settings`   →`settings for new projects` , 搜索`maven`，在里面设置你自己的创建新项目时默认的maven路径
 
 ![](https://raw.githubusercontent.com/msh01/PicGo/master/20200303001944.png)
+
+- **设置全局jdk路径：** 
+
+  找到`file` →`other settings`   →`structure for new projects`
+
+![](https://raw.githubusercontent.com/msh01/PicGo/master/20200309230146.png)
+
+
+
+
 
  ### 三、  编辑器优化说明
 
