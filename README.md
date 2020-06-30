@@ -38,17 +38,33 @@
 
 IDEA默认的一些配置并不符合我们的使用习惯，安装IDEA后，为了提升**开发效率**和**视觉舒适度**，往往需要花费很多精力去优化那些默认配置。
 
- 本项目对 可提升**开发效率**和**视觉舒适度**的配置进行了优化，并集成了若干插件，**使用时直接引入本项目的配置文件即可**。视觉效果如图（个人习惯清爽的亮色主题,当然你也可以切换酷炫的Darcula 主题）
+ 本项目对 可提升**开发效率**和**视觉舒适度**的配置进行了优化，并集成若干插件，**使用时直接引入本项目的配置文件即可**。视觉效果如图（个人习惯清爽的亮色主题,当然你也可以切换酷炫的Darcula 主题）
 
 ![](https://raw.githubusercontent.com/msh01/PicGo/master/20200302135522.png)
 
 ### 二、 用法
 
 - **引入编辑器和注释模板配置：** 打开你的IDEA，点击`file`→`import settings`，选中仓库中的 `settings.zip`  导入IDEA即可同步本仓库的优化配置
-- **引入插件：** 在IDEA的插件市场里面搜索 `plugin-importer-exporter` 插件，安装后重启，点击`file`→`import plugin` ，选择本仓库中的`plugins.json`  文件即可自动安装本配置里面包含的插件
-- **设置创建新项目时的默认maven路径：** 因为每个人的本地的maven路径不同，所以需要设置你的IDEA默认配置的的maven路径（如果不在这里不设置的话，每次创建新项目时则不得不都手动设置一遍）。 找到`file` →`other settings`   →`settings for new projects` , 搜索`maven`，在里面设置你自己的创建新项目时默认的maven路径
+
+- **引入插件：** 在IDEA的插件市场里面搜索 `plugin-importer-exporter` 插件，安装后重启，点击`file`→`import plugin` ，选择本仓库中的`plugins.json`  文件即可自动安装本配置里面包含的插件。
+
+  （科学上网的梯子会导致IDEA里面的插件市场偶尔无法访问，这时就需要你把每个插件包下载到本地后然后`install plugin from disk`）
+
+- **设置全局maven路径：** 因为每个人的本地的maven路径不同，所以需要设置你的IDEA默认配置的的maven路径（如果不在这里不设置的话，每次创建新项目时则不得不都手动设置一遍）：
+
+   找到`file` →`other settings`   →`settings for new projects` , 搜索`maven`，在里面设置你自己的创建新项目时默认的maven路径
 
 ![](https://raw.githubusercontent.com/msh01/PicGo/master/20200303001944.png)
+
+- **设置全局jdk路径：** 
+
+  找到`file` →`other settings`   →`structure for new projects`
+
+![](https://raw.githubusercontent.com/msh01/PicGo/master/20200309230146.png)
+
+
+
+
 
  ### 三、  编辑器优化说明
 
@@ -116,7 +132,7 @@ IDEA默认的一些配置并不符合我们的使用习惯，安装IDEA后，为
 
 本注释模板可能会不满足你的需要，则可在如下图所示的位置，修改方法注释模板和类注释模板
 
-![](https://raw.githubusercontent.com/msh01/PicGo/master/20200302235035.png)
+![](https://raw.githubusercontent.com/msh01/PicGo/master/20200309224929.png)
 
 ### 五、 插件集成说明
 
