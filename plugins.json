@@ -5,9 +5,20 @@
       "pluginName": "Eclipse Code Formatter",
       "downloadUrl": "http://plugins.intellij.net/plugin/?idea\u0026id\u003d6546",
       "dependencyPluginIds": [
-        "com.intellij",
         "com.intellij.modules.lang",
         "com.intellij.modules.java"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.ppolivka.gitlabprojects",
+      "pluginName": "GitLab Projects",
+      "dependencyPluginIds": [
+        "com.intellij.modules.platform",
+        "com.intellij.modules.vcs",
+        "Git4Idea"
       ],
       "optionalDependencyPluginIds": [],
       "isBundle": false,
@@ -18,7 +29,6 @@
       "pluginName": "Lombok",
       "downloadUrl": "https://github.com/mplushnikov/lombok-intellij-plugin",
       "dependencyPluginIds": [
-        "com.intellij",
         "com.intellij.modules.lang",
         "com.intellij.modules.platform",
         "com.intellij.modules.java"
@@ -28,40 +38,16 @@
       "isEnable": true
     },
     {
-      "pluginId": "MavenRunHelper",
-      "pluginName": "Maven Helper",
-      "downloadUrl": "https://github.com/krasa/MavenHelper",
+      "pluginId": "com.github.shiraji.emoji",
+      "pluginName": "Emoji Support Plugin",
+      "downloadUrl": "https://plugins.jetbrains.com/plugin/9174",
       "dependencyPluginIds": [
-        "com.intellij",
-        "org.jetbrains.idea.maven",
-        "org.jetbrains.plugins.terminal",
-        "com.intellij.modules.java"
+        "com.intellij.modules.lang",
+        "org.intellij.plugins.markdown"
       ],
       "optionalDependencyPluginIds": [
-        "org.jetbrains.plugins.terminal"
+        "org.intellij.plugins.markdown"
       ],
-      "isBundle": false,
-      "isEnable": true
-    },
-    {
-      "pluginId": "MyBatisLogPlugin",
-      "pluginName": "MyBatis Log Plugin",
-      "dependencyPluginIds": [
-        "com.intellij"
-      ],
-      "optionalDependencyPluginIds": [],
-      "isBundle": false,
-      "isEnable": true
-    },
-    {
-      "pluginId": "cn.wuzhizhan.plugin.mybatis",
-      "pluginName": "Free MyBatis plugin",
-      "dependencyPluginIds": [
-        "com.intellij",
-        "com.intellij.database",
-        "com.intellij.spring"
-      ],
-      "optionalDependencyPluginIds": [],
       "isBundle": false,
       "isEnable": true
     },
@@ -69,7 +55,6 @@
       "pluginId": "com.alibaba.p3c.smartfox",
       "pluginName": "Alibaba Java Coding Guidelines",
       "dependencyPluginIds": [
-        "com.intellij",
         "com.intellij.velocity",
         "com.intellij.modules.java",
         "com.intellij.modules.platform",
@@ -86,68 +71,9 @@
       "isEnable": true
     },
     {
-      "pluginId": "com.codota.csp.intellij",
-      "pluginName": "Codota ",
-      "downloadUrl": "http://www.codota.com/plugins",
-      "dependencyPluginIds": [
-        "com.intellij",
-        "com.intellij.modules.lang",
-        "JavaScript",
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin"
-      ],
-      "optionalDependencyPluginIds": [
-        "com.intellij.modules.lang",
-        "JavaScript",
-        "com.intellij.modules.java",
-        "org.jetbrains.kotlin"
-      ],
-      "isBundle": false,
-      "isEnable": true
-    },
-    {
-      "pluginId": "com.github.shiraji.emoji",
-      "pluginName": "Emoji Support Plugin",
-      "downloadUrl": "https://plugins.jetbrains.com/plugin/9174",
-      "dependencyPluginIds": [
-        "com.intellij",
-        "com.intellij.modules.lang"
-      ],
-      "optionalDependencyPluginIds": [],
-      "isBundle": false,
-      "isEnable": true
-    },
-    {
-      "pluginId": "com.ppolivka.gitlabprojects",
-      "pluginName": "GitLab Projects",
-      "dependencyPluginIds": [
-        "com.intellij",
-        "com.intellij.modules.platform",
-        "com.intellij.modules.vcs",
-        "Git4Idea"
-      ],
-      "optionalDependencyPluginIds": [],
-      "isBundle": false,
-      "isEnable": true
-    },
-    {
-      "pluginId": "com.wix.eslint",
-      "pluginName": "ESLint",
-      "downloadUrl": "https://github.com/idok/eslint-plugin",
-      "dependencyPluginIds": [
-        "com.intellij",
-        "com.intellij.modules.lang",
-        "JavaScript"
-      ],
-      "optionalDependencyPluginIds": [],
-      "isBundle": false,
-      "isEnable": true
-    },
-    {
       "pluginId": "commit-template-idea-plugin",
       "pluginName": "Git Commit Template",
       "dependencyPluginIds": [
-        "com.intellij",
         "com.intellij.modules.vcs"
       ],
       "optionalDependencyPluginIds": [],
@@ -158,10 +84,40 @@
       "pluginId": "de.netnexus.camelcaseplugin",
       "pluginName": "CamelCase",
       "dependencyPluginIds": [
-        "com.intellij",
         "com.intellij.modules.lang"
       ],
       "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "mobi.hsz.idea.gitignore",
+      "pluginName": ".ignore",
+      "dependencyPluginIds": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.vcs",
+        "Git4Idea",
+        "hg4idea"
+      ],
+      "optionalDependencyPluginIds": [
+        "Git4Idea",
+        "hg4idea"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "MavenRunHelper",
+      "pluginName": "Maven Helper",
+      "downloadUrl": "https://github.com/krasa/MavenHelper",
+      "dependencyPluginIds": [
+        "org.jetbrains.idea.maven",
+        "org.jetbrains.plugins.terminal",
+        "com.intellij.modules.java"
+      ],
+      "optionalDependencyPluginIds": [
+        "org.jetbrains.plugins.terminal"
+      ],
       "isBundle": false,
       "isEnable": true
     },
@@ -170,7 +126,6 @@
       "pluginName": "Spring Assistant",
       "downloadUrl": "https://github.com/1tontech/intellij-spring-assistant",
       "dependencyPluginIds": [
-        "com.intellij",
         "com.intellij.modules.java",
         "com.intellij.modules.lang",
         "org.jetbrains.plugins.yaml",
@@ -186,18 +141,74 @@
       "isEnable": true
     },
     {
-      "pluginId": "mobi.hsz.idea.gitignore",
-      "pluginName": ".ignore",
+      "pluginId": "com.bruce.intellijplugin.generatesetter",
+      "pluginName": "GenerateAllSetter",
       "dependencyPluginIds": [
-        "com.intellij",
-        "com.intellij.modules.lang",
-        "com.intellij.modules.vcs",
-        "Git4Idea",
-        "hg4idea"
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "com.ccnode.codegenerator.MyBatisCodeHelperPro"
       ],
       "optionalDependencyPluginIds": [
-        "Git4Idea",
-        "hg4idea"
+        "org.jetbrains.kotlin",
+        "com.ccnode.codegenerator.MyBatisCodeHelperPro"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.codota.csp.intellij",
+      "pluginName": "Codota",
+      "downloadUrl": "http://www.codota.com/plugins",
+      "dependencyPluginIds": [
+        "com.intellij.modules.lang",
+        "JavaScript",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "com.intellij.stats.completion"
+      ],
+      "optionalDependencyPluginIds": [
+        "com.intellij.modules.lang",
+        "JavaScript",
+        "com.intellij.modules.java",
+        "org.jetbrains.kotlin",
+        "com.intellij.stats.completion"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "cn.wuzhizhan.plugin.mybatis",
+      "pluginName": "Free MyBatis plugin",
+      "dependencyPluginIds": [
+        "com.intellij.database",
+        "com.intellij.spring"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "com.wix.eslint",
+      "pluginName": "ESLint",
+      "downloadUrl": "https://github.com/idok/eslint-plugin",
+      "dependencyPluginIds": [
+        "com.intellij.modules.lang",
+        "JavaScript"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "lermitage.intellij.extra.icons",
+      "pluginName": "Extra Icons",
+      "dependencyPluginIds": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.vcs",
+        "AngularJS"
+      ],
+      "optionalDependencyPluginIds": [
+        "AngularJS"
       ],
       "isBundle": false,
       "isEnable": true
